@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Inter:wght@400;700&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+:root{
+    --white-color : #FEFFFF;
+    --inter-font-family : 'Inter', sans-serif;
+    --roboto-font-family : 'Roboto', sans-serif;
+    --word-spacing : 2px;
+    --letter-spacing : 1px;
+    --card-bg-strip-color : #262626;
+    --card-bg-color : #B6B7BA;
+    --cvv-bg-strip-color : #8A9299;
+    --cvv-bg-dash-color : #909399;
+    --confirm-btn-color : #1b0726;
+    --form-title-color : #1E1724;
+}
+
+.input-placeholder-color::placeholder{
+    color: #FEFFFF;
+}
+
+.cards{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

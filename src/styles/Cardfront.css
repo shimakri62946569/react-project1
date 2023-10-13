@@ -1,0 +1,87 @@
+.container{
+    position: relative;
+    left: 15%;
+    height: 250px;
+    width: 400px;
+}
+
+.container > img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.circle-1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #CCCBCC;
+    z-index: 2;
+}
+
+.circle-2{
+    position: absolute;
+    top: 35px;
+    left: 95px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #CCCBCC;
+    z-index: 2;
+}
+
+.card-number{
+    position: absolute;
+    bottom: 90px;
+    left: 13px;    
+    z-index: 2;
+}
+
+.card-number > input{
+    height: 35px;
+    width: 90px;
+    font-size: x-large;
+    letter-spacing: 5px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.card-holder-name{
+    position: absolute;
+    bottom: 20px;
+    left: 13px;    
+    z-index: 2;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.name{
+    height: 30px;
+    font-size: medium;
+    background-color: transparent;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+.month{
+    font-size: medium;
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    letter-spacing: 3px;
+    color: #fff;
+    border: none;
+    outline: none;
+}

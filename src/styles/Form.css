@@ -1,0 +1,96 @@
+.main{
+    background-color: var(--white-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 400px;
+    box-shadow: 0 4px 55px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--inter-font-family);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    word-spacing: var(--word-spacing);
+    margin-left: 50px;
+}
+
+.red-font{
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    color: #F81212;
+    font-family: var(--inter-font-family);
+    font-size: 12px;
+    text-transform: none;
+    
+}
+
+
+p{
+    line-height: 30px;
+}
+
+
+input{
+    padding-left: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section > input, button, #month-input, #year-input, #cvv-input{
+    height: 40px;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: var(--letter-spacing);
+    border: 1px solid grey;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.005;
+}
+
+.date-and-cvv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+#cvv-input{
+    height: 40px;
+    width: 100%;
+}
+
+#month-input, #year-input{
+    margin-right: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+.par{
+    width: 100%;
+}
+
+.m-y{
+    display: flex;
+}

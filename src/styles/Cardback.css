@@ -1,0 +1,105 @@
+.cardback{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    background-color: var(--card-bg-color);
+    left: 30%;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.black-strip{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--card-bg-strip-color);
+}
+
+.cvv-strip{
+    position: relative;
+    top: 45px;
+    margin: auto auto;
+    width: 80%;
+    height: 40px;
+    background-color: var(--cvv-bg-strip-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cvv-strip > input{
+    text-align: right;
+    font-size: large;
+    letter-spacing: 3px;
+    margin-right: 5px;
+    background-color: var(--cvv-bg-strip-color);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.random-strip{
+    position: relative;
+    top: 75px;
+    margin: auto auto;
+    width: 65%;
+    height: 40px;
+}
+
+.section-1, .section-2, .section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.section-1 > .div-1, .section-3 > .div-4{
+    width: 100px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-1 > .div-2, .section-2 > .div-1, .section-3 > .div-2, .section-3 > .div-3{
+    width: 30px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-2 > .div-2{
+    width: 80px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-2 > .div-3{
+    width: 60px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-2 > .div-4{
+    width: 30px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-1 > .div-3{
+    width: 50px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
+
+.section-1 > .div-4, .section-3 > .div-1{
+    width: 15px;
+    border-radius: 15px;
+    height: 5px;
+    background-color: var(--cvv-bg-dash-color);
+}
